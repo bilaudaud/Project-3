@@ -55,3 +55,6 @@ This project consisted in using Git and GitHub with a simulated workflow to refa
 The Project Submission consisted in the filling of a template with all the Git commands used to perform the requested tasks.
 
 [Check My Project Submission](https://github.com/bilaudaud/Ifeoma-https-github.com-Ifeoma-Udacity-programming-for-Data-Science-With-Python-Nanodegree/blob/main/Git%20Project/ifeoma%20Git%20Commands%20Documentation.pdf).
+
+### Credits
+Thank you to Udacity for creating the challenging project!
