@@ -64,7 +64,7 @@ def get_filters():
 
     print("\nYou selected '{}' as city, '{}' as month, and '{}' as day. \nFiltering by your parameters....".format(city.title(), month.title(), day.title()))
     print()
-    print('-'*40)
+    print('-'*50)
     return city, month, day
 
 def validity_check(): 
@@ -105,6 +105,7 @@ def load_data(city, month, day):
     # thus if user inputted actual month
     if month != 'all':
        # use the index of the months list to get the corresponding int --> must be in chronological order!! 
+
         months = ['january', 'february', 'march', 'april', 'may', 'june']
         
         # month outputted as integer
@@ -115,7 +116,6 @@ def load_data(city, month, day):
 
 
     # filter by day of week if applicable
-    # thus if user inputted actual day
     if day != 'all':
         # list of days must be in chronological order!! 
         days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
